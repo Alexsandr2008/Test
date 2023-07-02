@@ -39,28 +39,28 @@ public class SecondActivity4 extends AppCompatActivity {
     private View.OnClickListener gzl = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            Intent intent = new Intent(getApplicationContext(),SecondActivity15.class);
             startActivity(intent);
         }
     };
     private View.OnClickListener wlb = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            Intent intent = new Intent(getApplicationContext(), SecondActivity15.class);
             startActivity(intent);
         }
     };
     private View.OnClickListener gpv = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            Intent intent = new Intent(getApplicationContext(), SecondActivity15.class);
             startActivity(intent);
         }
     };
     private View.OnClickListener zle = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            Intent intent = new Intent(getApplicationContext(), SecondActivity15.class);
             startActivity(intent);
         }
     };
