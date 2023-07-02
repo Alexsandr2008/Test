@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SecondActivity5">
+    <Button
+        android:id="@+id/lop"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Назад"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/wet"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:text="Контакты"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lop"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/rtf"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:text="Реквезиты"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wet"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/gty"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:text="Отзывы"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rtf"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/tbk"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:text="Доставка"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gty"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

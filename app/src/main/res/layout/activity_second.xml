@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+    <Button
+    android:id="@+id/nazad"
+    android:layout_width="100dp"
+    android:layout_height="80dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:text="Назад"
+    android:textSize="12sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="MissingConstraints" />
+     <Button
+    android:id="@+id/zxc"
+    android:layout_width="200dp"
+    android:layout_height="85dp"
+    android:layout_marginTop="25dp"
+    android:text="25x100"
+    android:textColor="#FFFFFF"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/nazad"
+    app:layout_constraintStart_toStartOf="parent"
+    android:textSize="17sp"
+    tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/zxv"
+        android:layout_width="200dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="15dp"
+        android:text="25x130"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zxc"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/zxb"
+        android:layout_width="200dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="15dp"
+        android:text="25x150"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zxv"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/zxn"
+        android:layout_width="200dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="15dp"
+        android:text="25x200"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zxb"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

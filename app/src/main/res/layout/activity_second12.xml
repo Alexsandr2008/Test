@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SecondActivity12">
+    <Button
+        android:id="@+id/tnkj"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Назад"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="130dp"
+        android:text="Наим."
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="190dp"
+        android:text="Кол-во"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:text="Цена ед."
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="310dp"
+        android:text="Цена"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dsd"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:hint="|"
+        android:layout_marginTop="130dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/rtg"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:hint="|"
+        android:layout_marginTop="190dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/vfd"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:hint="|"
+        android:layout_marginTop="250dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/ljb"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="310dp"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/fvgop"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginRight="180dp"
+        android:text="Рассчитать цену"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/vnjkl"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginLeft="180dp"
+        android:text="Рассчитать итог"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/asdfg"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="Заказать"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
